@@ -1,0 +1,31 @@
+{
+  "name": "tinypack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "tinypack": "tinypack.js"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/tinypack.git"
+  },
+  "author": "Lsong <song940@gmail.com> (https://lsong.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/song940/tinypack/issues"
+  },
+  "homepage": "https://github.com/song940/tinypack#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/traverse": "^7.12.12",
+    "babylon": "^6.18.0"
+  }
+}
